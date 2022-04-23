@@ -1,0 +1,185 @@
+body {
+    color: black;
+    background-image: url("../img/bodybackground.jpg");
+}
+
+header {
+    height: 150px;
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+h1 {
+    text-align: center;
+    visibility: hidden;
+}
+
+h2,
+h3 {
+    color: black;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: none;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container .btn:hover {
+    background-color: peachpuff;
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: inline-start;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: gray;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: peachpuff;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px gray;
+}
+
+#abco {
+    width: 600px;
+    height: 300px;
+    padding-right: 10px;
+}
+
+#aboutp {
+    margin-bottom: 120px;
+}
+
+#contactp {
+    margin-bottom: 140px;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-style: italic;
+}
+
+#box {
+    background-color: rgb(152, 207, 22);
+    width: 35%;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.btn2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    background-color: #00ffff;
+}
+
+h5 {
+    background-color: green;
+    font-size: 1.8em;
+    padding-left: .6em;
+    padding-bottom: .25em;
+    text-align: center;
+    font-style: italic;
+}
+
+table,
+th,
+td {
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame {
+    width: 300px;
+    height: 250px;
+    border: 3px solid #221811;
+    background: #eee;
+    margin: auto;
+    padding: 15px 10px;
+}
+
